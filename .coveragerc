@@ -1,0 +1,10 @@
+# .coveragerc to control coverage.py
+[run]
+omit =
+    src/sorts/operations/thread.py
+    tests/*
+
+[report]
+omit =
+    src/sorts/operations/thread.py
+    tests/*
